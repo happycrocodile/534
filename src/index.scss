@@ -1,7 +1,22 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 $card-border-width: 0rem;
 $card-border-radius: 0rem;
+
+$font-family-base: "Oswald", sans-serif;
+
+$hr-border-width: 10px;
+$hr-opacity: 100%;
+
+$display-font-sizes: (
+    1: 10rem,
+    2: 4rem,
+    3: 2rem
+);
+
+$border-radius-lg: 0rem;
+
+$primary: white;
 
 $grid-gutter-width: 0rem;
 
@@ -10,6 +25,17 @@ $grid-gutter-width: 0rem;
 @import "~locomotive-scroll/dist/locomotive-scroll.min.css";
 
 footer {
+    height: 100vh;
+    width: auto;
+}
+
+.filter {
+    height: 100vh;
+    width: auto;
+    filter: brightness(75%);
+}
+
+.me {
     height: 100vh;
     width: auto;
 }

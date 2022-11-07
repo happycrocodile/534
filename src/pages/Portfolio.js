@@ -81,11 +81,11 @@ function Portfolio() {
                         <Margin.Top>
                             <Row>
                                 <Col data-scroll data-scroll-speed={2} className="text-center text-white">
-                                    <Typography.H5>Encuentra mis proyectos en GitHub o mira mis proyectos de demostración haciendo clic en el botón de abajo</Typography.H5>
+                                    <Typography.H5>Encuentra mis proyectos en GitHub o mira mis proyectos de demostración haciendo clic en el botón de abajo.</Typography.H5>
 
                                     <Margin.Top>
                                         <Projects />
-                                        <a href="https://github.com/ezgaribotti" rel="noreferrer" target="_blank" className="btn btn-link text-white">
+                                        <a href="https://github.com/happycrocodile" rel="noreferrer" target="_blank" className="btn btn-link text-white">
                                             <FontAwesomeIcon icon={faGithub} size="lg" />
                                         </a>
                                     </Margin.Top>

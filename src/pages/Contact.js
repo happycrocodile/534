@@ -39,7 +39,7 @@ function Contact() {
         },
         {
             icon: faGithub,
-            href: "https://github.com/ezgaribotti"
+            href: "https://github.com/happycrocodile"
         },
     ];
 
@@ -68,7 +68,7 @@ function Contact() {
                                 <Card>
                                     <Card.Body>
                                         <Margin.Bottom>
-                                            <Card.Subtitle>Estos son los medios por los cuales me pueden contactar</Card.Subtitle>
+                                            <Card.Subtitle>Estos son los medios por los cuales me pueden contactar.</Card.Subtitle>
                                         </Margin.Bottom>
 
                                         <Row>

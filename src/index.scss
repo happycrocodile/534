@@ -1,41 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
-$card-border-width: 0rem;
-$card-border-radius: 0rem;
-
-$font-family-base: "Oswald", sans-serif;
+$font-family-base: "Anton", sans-serif;
+$font-size-base: 1.3rem;
 
 $hr-border-width: 10px;
 $hr-opacity: 100%;
 
-$display-font-sizes: (
-    1: 10rem,
-    2: 4rem,
-    3: 2rem
-);
+$h1-font-size: 7.4rem;
 
+$border-radius: 0rem;
 $border-radius-lg: 0rem;
 
-$primary: white;
+$primary: #ffe570;
+$secondary: #fffec5;
 
-$grid-gutter-width: 0rem;
+$card-border-width: 0rem;
+$card-border-radius: 0rem;
+$card-spacer-y: 2rem;
+
+$thumbnail-padding: 0.7rem;
+$thumbnail-border-width: 0rem;
+
+$navbar-dark-color: white;
+$navbar-dark-hover-color: white;
+
+$list-group-border-width: 0rem;
+
+$modal-header-border-width: 0rem;
+$modal-header-padding: 0rem;
+
+$nav-link-color: black;
+$nav-link-hover-color: $primary;
 
 @import "~bootstrap/scss/bootstrap.scss";
 
 @import "~locomotive-scroll/dist/locomotive-scroll.min.css";
 
 footer {
-    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/header.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
     width: auto;
+    display: flex;
+    align-items: center;
 }
 
-.filter {
-    height: 100vh;
-    width: auto;
-    filter: brightness(75%);
+.card-img {
+    filter: brightness(70%);
 }
 
-.me {
-    height: 100vh;
-    width: auto;
+@media (max-width: 991.98px) {
+    //
 }

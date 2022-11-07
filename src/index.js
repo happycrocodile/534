@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { SWRConfig } from "swr";
+import axios from 'axios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const fetcher = url => axios.get(url).then(response => response.data)
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+      <SWRConfig value={{ fetcher: fetcher, suspense: true }}>
+            <App />
+      </SWRConfig>
 );
 
 // If you want to start measuring performance in your app, pass a function

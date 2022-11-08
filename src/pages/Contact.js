@@ -31,7 +31,7 @@ function Contact() {
     const social = [
         {
             icon: faLinkedin,
-            href: "https://www.linkedin.com/in/ezequiel-garibotti-92a147235"
+            href: "https://ar.linkedin.com/in/ezequiel-garibotti-92a147235?trk=profile-badge"
         },
         {
             icon: faInstagram,
